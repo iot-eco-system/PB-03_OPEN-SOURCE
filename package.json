@@ -1,0 +1,38 @@
+{
+  "name": "@Ai-Thinker-Open/PB-03_OPEN-SOURCE",
+  "version": "0.1.0",
+  "description": "PB03-SDK",
+  "main": "",
+  "scripts": {
+    "build:meshlight": "export PATH=./xpacks/bin:$PATH && cd Ai_PB-03F_OPEN-SOURCE/example/ble_mesh/mesh_light/gcc && make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iot-eco-system/PB-03_OPEN-SOURCE"
+  },
+  "homepage": "https://github.com/iot-eco-system/PB-03_OPEN-SOURCE",
+  "bugs": {
+    "url": "https://github.com/iot-eco-system/PB-03_OPEN-SOURCE/issues/"
+  },
+  "keywords": [
+    "xpack",
+    "ai-thinker",
+    "pb-03"
+  ],
+  "config": {},
+  "devDependencies": {},
+  "xpack": {
+    "minimumXpmRequired": "0.20.5",
+    "dependencies": {},
+    "devDependencies": {
+      "@xpack-dev-tools/arm-none-eabi-gcc": {
+        "specifier": "10.3.1-2.3.1",
+        "local": "link",
+        "platforms": "all"
+      }
+    },
+    "properties": {},
+    "actions": {},
+    "buildConfigurations": {}
+  }
+}
